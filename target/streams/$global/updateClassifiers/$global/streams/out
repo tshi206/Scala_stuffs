@@ -281,18 +281,12 @@
 [debug] == resolving dependencies default#java_scala$sources;0.1->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried C:\Users\Shi Tao\.ivy2\local\jline\jline\2.14.5\srcs\jline-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.14.5!jline.jar(src) (930ms)
-[debug] :: resolution report :: resolve 42ms :: artifacts dl 932ms
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
+[debug] :: resolution report :: resolve 63ms :: artifacts dl 4ms
 [debug] 	report for default#java_scala$sources;0.1 compile produced in D:\functional_studies\Java_Scala\target\scala-2.12\resolution-cache\reports\default-java_scala$sources-compile.xml
 [debug] 	report for default#java_scala$sources;0.1 runtime produced in D:\functional_studies\Java_Scala\target\scala-2.12\resolution-cache\reports\default-java_scala$sources-runtime.xml
 [debug] 	report for default#java_scala$sources;0.1 test produced in D:\functional_studies\Java_Scala\target\scala-2.12\resolution-cache\reports\default-java_scala$sources-test.xml
@@ -304,4 +298,4 @@
 [debug] 	report for default#java_scala$sources;0.1 plugin produced in D:\functional_studies\Java_Scala\target\scala-2.12\resolution-cache\reports\default-java_scala$sources-plugin.xml
 [debug] 	report for default#java_scala$sources;0.1 pom produced in D:\functional_studies\Java_Scala\target\scala-2.12\resolution-cache\reports\default-java_scala$sources-pom.xml
 [debug] 	report for default#java_scala$sources;0.1 scala-tool produced in D:\functional_studies\Java_Scala\target\scala-2.12\resolution-cache\reports\default-java_scala$sources-scala-tool.xml
-[debug] 	resolve done (42ms resolve - 932ms download)
+[debug] 	resolve done (63ms resolve - 4ms download)
